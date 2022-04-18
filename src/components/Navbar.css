@@ -1,0 +1,26 @@
+
+nav {
+    width: 100vw;
+  }
+  
+  nav ul {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  nav a{
+      display: flex;
+      flex-direction: column;
+      font-weight: bold;
+      color: var(--stroke);
+  }
+  
+  nav img{
+      width: 30vw;
+  }
+  
+  .japanese{
+      border-bottom: 1px solid var(--stroke)
+  }

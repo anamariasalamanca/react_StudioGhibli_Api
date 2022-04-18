@@ -1,0 +1,13 @@
+.not-found img {
+    width: 50%;
+    border: 1px solid var(--stroke);
+    padding: 3px;
+    margin: 8px;
+    background-color: var(--highlight);
+  }
+  
+  .not-found{
+      display:flex;
+      align-items: center;
+      flex-direction: column;
+  }

@@ -1,0 +1,23 @@
+.film-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .film-card:hover{
+    cursor: pointer;
+  }
+  
+  .film-card img {
+    border: 1px solid var(--stroke);
+    padding: 3px;
+    width: 200px;
+    margin: 8px;
+    background-color: var(--highlight);
+  }
+  
+  .film-card h4 {
+    width: fit-content;
+  }
